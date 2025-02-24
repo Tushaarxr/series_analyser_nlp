@@ -21,6 +21,7 @@ def get_themes(theme_list_str,subtitles_path,save_path):
 
     output_chart = gr.BarPlot(
         output_df,
+        
         x="Theme",
         y="Score",
         title="Series Themes",
